@@ -1,0 +1,39 @@
+header {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+body { 
+    background-color: #b2b2b2;
+
+}
+
+a {
+    text-decoration: none;
+    float: #636363;
+    color: #141414;
+    margin: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+section {
+    border: 2px solid #636363;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
