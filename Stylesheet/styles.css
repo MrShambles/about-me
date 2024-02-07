@@ -15,7 +15,11 @@ a {
     float: #636363;
     color: #141414;
     margin: 10px;
+    
+}
 
+a:hover {
+    background-color: #e0e0e0;
 }
 
 ul {
