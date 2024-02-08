@@ -3,6 +3,7 @@
     <head>
         <title>Which bike is best?</title>
         <link rel="stylesheet" href="Stylesheet/styles.css">
+        <script src="./js/functions.js"></script>
     </head>
     <body>
         
@@ -33,26 +34,10 @@
                 </ul>
             </nav>
 
-            <script>
-                let motorcycle = confirm("Have you ridden a motorcycle?");
-                
-                if( motorcycle === true ) {
-                    document.write("Awesome! Whats your favorite place to ride?");
-                }
-                else {
-                    document.write("Whats stopping you from riding one?")
-                }
+            
+            <script> askAboutMotorcycle(); </script>
 
-            </script>
-
-            <script>
-
-                let color = prompt("What color do you think looks best on a bike?")
-
-                document.write("Great choice! " + color + "  looks great on all bikes!");
-
-        
-            </script>
+            <script> whatColorIsBest(); </script>
 
             </header>
 
@@ -101,6 +86,7 @@
             </footer>
 
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7L74kuFy2meWmxz8PNsu1Y?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 
         
     </body>
