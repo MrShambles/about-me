@@ -15,6 +15,7 @@ a {
     float: #636363;
     color: #141414;
     margin: 10px;
+    text-align: center;
     
 }
 
@@ -24,6 +25,7 @@ a:hover {
 
 ul {
     list-style-type: none;
+    text-align: center;
 
 }
 
@@ -42,3 +44,8 @@ footer {
 
 }
 
+script {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: solid;
+}
